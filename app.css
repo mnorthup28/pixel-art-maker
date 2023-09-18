@@ -19,6 +19,7 @@ body {
 .palette {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .pixel {
@@ -35,3 +36,8 @@ body {
     display: inline-block;
     margin: 12px;
   }
+
+.color-picker-container {
+    text-align: center;
+    margin:20px ;
+}

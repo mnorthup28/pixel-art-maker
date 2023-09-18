@@ -47,4 +47,13 @@ palette.addEventListener('click', function(){
     selectedColor = event.target.style.backgroundColor
     console.log(`You are using ${selectedColor}`)
 })
- 
+
+const colorPicker = document.getElementById('colorPicker');
+colorPicker.addEventListener('change', function() {
+    selectedColor = colorPicker.value;
+})
+
+const reset = document.getElementById('pageReset')
+reset.addEventListener('click', function(){
+    location.reload();
+})
