@@ -13,15 +13,16 @@ More specifically, your pixel art maker should allow a user to do the following.
 
 Here's a development workflow that we recommend you use.
 
-1. Fork and clone this repository.
-1. Create a small, 2x2 grid canvas made up of white, square `div` tags with a border.
-1. Add an event listener to each `div` so when clicked the background turns red.
-1. Create a small palette of two colors (e.g. red and blue) below the canvas using more `div` tags.
-1. Add an event listener to these `div` tags so when clicked the brush color is saved.
-1. Expand the dimensions of the pixel canvas.
-1. Expand the palette with more colors. (i.e. red, orange, yellow, green, blue, purple, brown, gray, black, white, etc.)
+1. xx Fork and clone this repository. xx
+1. xx Create a small, 2x2 grid canvas made up of white, square `div` tags with a border. xx 
+1. xx Add an event listener to each `div` so when clicked the background turns red. xx
+1. xx Create a small palette of two colors (e.g. red and blue) below the canvas using more `div` tags. xx
+1. xx Add an event listener to these `div` tags so when clicked the brush color is saved. xx
+1. xx Expand the dimensions of the pixel canvas. xx
+1. xx Expand the palette with more colors. (i.e. red, orange, yellow, green, blue, purple, brown, gray, black, white, etc.) xx
 1. Expand the palette with a brush color indicator.
-1. Improve the look and feel of the canvas and color palette. Be careful not to break your program's behavior!
+1. xx Improve the look and feel of the canvas and color palette. Be careful not to break your program's behavior! xx
+1. BONUS GOAL SET BY ME GET A RESET BUTTON
 
 **TIP:** Check out [this handy tool](http://www.colors.commutercreative.com/grid/) to see a list of all the named colors in CSS.
 
