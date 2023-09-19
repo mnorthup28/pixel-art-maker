@@ -32,7 +32,6 @@ for(let i = 0; i < 800; i++){
 
     container.appendChild(pixel);
 }
-
 const palette = document.createElement('div')
 for(color of colorArray) {
     let colorEl = document.createElement('div');

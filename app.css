@@ -6,8 +6,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg?w=400&h=300&c=crop")
- 
+    background-image: url("https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg?w=400&h=300&c=crop");
+    flex-direction: column;
 }
 .container {
     display: flex;
@@ -40,4 +40,19 @@ body {
 .color-picker-container {
     text-align: center;
     margin:20px ;
+}
+
+.controls {
+    width: 525px;
+    display: flex;
+    justify-content: inherit;
+    align-items: baseline;
+}
+
+#pageReset {
+    height: 25px;
+}
+
+p {
+    background-color: darkkhaki;
 }
